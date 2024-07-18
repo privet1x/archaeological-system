@@ -1,0 +1,158 @@
+#main {
+    background: #eff;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.bodyBlock {
+    width: 30%;
+    text-align: center;
+}
+body {
+    margin: 0;
+}
+
+.bodyBlock {
+    width: 66%;
+    margin: 2rem auto;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border: 1px solid #001a33;
+}
+form label {
+    font-size: 1.2rem;
+}
+.tableBlock {
+    width: 50rem;
+    margin: 2rem auto;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border: 1px solid #001a33;
+}
+h2 {
+    text-align: center;
+}
+label {
+    display: block;
+    margin-bottom: 0.3rem;
+    margin-top: 0.5rem;
+    font-size: 1.5rem;
+}
+
+input {
+    width: 60% !important;
+}
+
+input[type="date"] {
+    width: 60%;
+    height: 2rem;
+    font-size: 0.9rem;
+}
+
+input[type="text"] {
+    width: 50%;
+    font-size: 1rem;
+    padding: 0.2rem;
+    margin-left: 0.5rem;
+}
+
+#intermediateLocations {
+    margin: 1rem auto;
+    font-size: 1.4rem;
+}
+
+.create {
+    backgroundColor: #02bd03;
+}
+
+.buttons {
+    margin: 0.5rem auto;
+}
+
+.cancel {
+    backgroundColor: #ff0000;
+    padding-left: 5rem;
+}
+
+select {
+    width: 100%;
+    padding: 0px;
+    border: 1px solid #001a33;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 1.4rem;
+}
+
+.select_location {
+    width: 60%;
+    height: 2rem;
+    font-size: 1rem;
+}
+
+
+.createMission {
+    width: 100%;
+    padding: 0px;
+    border: 1px solid #001a33;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.bodyBlock {
+    width: 40rem;
+}
+
+
+option {
+    border: 1px solid #001a33;
+    font-size: 1.3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+.container {
+    flex: 1 1 auto;
+    position: relative;
+    background-image: url("/Users/antonpazniak/Documents/javaProjects/MAS_final_s22326/src/main/resources/images/archaeological_img.png");
+    background-size: cover;
+    background-color: #fff;
+}
+
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+
+table {
+    width: 100%;
+}
+
+thead {
+    background-color: #001a33;
+    color: #ffffff;
+}
+
+th, td {
+    font-size: 1.1rem;
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tbody tr:hover {
+    background-color: #ddd;
+}
+
+.employeeTable {
+    background-color: #f2f2f2;
+}
